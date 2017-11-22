@@ -4,7 +4,6 @@ import expect from 'expect';
 import { mount } from 'enzyme';
 
 import { Login } from './Login';
-import { wrap } from 'module';
 
 if (Meteor.isClient) {
     describe('Login', function() {
