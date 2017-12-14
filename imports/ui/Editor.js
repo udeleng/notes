@@ -48,10 +48,10 @@ export class Editor extends React.Component {
                     <button onClick={this.handleRemoval.bind(this)}>Delete Note</button>
                 </div>
             );
-        } else {
+        } else { 
             return (
                 <p>
-                    { this.props.selectedNoteId ? 'Note not found' : 'Pick or create a note to get started' }
+                    { this.props.selectedNoteId ? 'Note not found.' : 'Pick or create a note to get started.' }
                 </p>
             );
         }
